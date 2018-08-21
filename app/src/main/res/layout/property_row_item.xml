@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/commonListItemStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/menuTextColor">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/menuTextColor"
+        android:layout_gravity="center"
+        android:foreground="?attr/selectableItemBackground"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/apartment"
+                android:id="@+id/iconView"
+                android:layout_width="35dp"
+                android:layout_weight=".1"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:text="@string/app_name"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:id="@+id/property_type"
+                android:layout_width="0dp"
+                android:layout_weight=".8"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SelectProperty</string>
+    <string name="internet_error">Please check your internet connection!</string>
+</resources>
